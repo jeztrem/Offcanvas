@@ -1,0 +1,23 @@
+﻿<div class="card bg-light mt-3" style="width:18rem ">
+    <div class="card-body">
+        <h3 class="card-title">ChildBind Component</h3>
+        <p class="card-text">
+            Child <code>FolderKey</code>: @FolderKey
+        </p>
+        <button @onclick="UpdateFolderKeyFromChild">Update FolderKey from Child</button>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string? FolderKey { get; set; }
+
+    [Parameter]
+    public EventCallback<string> FolderKeyChanged { get; set; }
+
+    private async Task UpdateFolderKeyFromChild()
+    {
+        await FolderKeyChanged.InvokeAsync("1991");
+    }
+}

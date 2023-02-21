@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = blazor
+build_property.RootNamespace = blazor
+build_property.ProjectDir = c:\Users\jeztr\LocalT\Offcanvas\blazor\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\jeztr\LocalT\Offcanvas\blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Child001.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlsZDAwMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Child002.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlsZDAwMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Child003.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlsZDAwMy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Child004.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlsZDAwNC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/ChildParentBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlsZFBhcmVudEJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Offcanvas001.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPZmZjYW52YXMwMDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Offcanvas002.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPZmZjYW52YXMwMDIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Offcanvas003.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPZmZjYW52YXMwMDMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Offcanvas004.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPZmZjYW52YXMwMDQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/Offcanvas005.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPZmZjYW52YXMwMDUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/PasswordEntry.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYXNzd29yZEVudHJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Components/UserSettings.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2VyU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexChildParentBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhDaGlsZFBhcmVudEJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexOffcanvas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhPZmZjYW52YXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexParent001.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhQYXJlbnQwMDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexParent002.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhQYXJlbnQwMDIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexParent003.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhQYXJlbnQwMDMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexParent004.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhQYXJlbnQwMDQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexPasswordBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhQYXNzd29yZEJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/Pages/IndexUserSettings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhVc2VyU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jeztr/LocalT/Offcanvas/blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

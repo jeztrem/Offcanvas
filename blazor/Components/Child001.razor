@@ -1,0 +1,38 @@
+﻿<p>
+    <button @onclick="OnClickCallback">
+        Trigger a Parent component method
+    </button>
+    <button @onclick="OnShiftCallback">
+        Trigger a Parent component method
+    </button>
+</p>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+    
+    [Parameter]
+    public string? FolderKey { get; set; }    
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClickCallback { get; set; }
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnShiftCallback { get; set; }
+
+// Set the default values for the parameters
+    protected override void OnInitialized()
+    {
+        if (Title == null)
+        {
+            Title = "Default title";
+        }
+        if (FolderKey == null)
+        {
+            FolderKey = "Default folder key";
+        }
+    }
+}

@@ -1,0 +1,28 @@
+﻿@page "/cc"
+@using blazor.Components 
+
+<h1>Parent-child example</h1>
+
+<Child001 Title="Panel Title from Parent"  OnClickCallback="@ShowMessage" OnShiftCallback="ShiftMessage">
+    Content of the child component is supplied by the parent component.
+</Child001>
+
+<p>@message</p>
+
+
+<p>@folderKey</p>
+
+@code {
+    private string? message;
+
+    private string folderKey = "Value from Parent";
+
+    private void ShowMessage(MouseEventArgs e)
+    {
+        message = $"Blaze a new trail with Blazor! ({e.ScreenX}:{e.ScreenY})";
+    }    
+    private void ShiftMessage(MouseEventArgs e)
+    {
+        message = $"Called shiftMessage! ({e.ScreenX}:{e.ScreenY})";
+    }
+}

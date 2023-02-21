@@ -1,0 +1,50 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+@using blazor.Components
+
+<div class="container-xxl">
+
+    <div class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <nav class="container-xxl">
+            <button type="button" class="btn btn-outline-secondary" id="settingsid" data-bs-toggle="offcanvas"
+                data-bs-target="#userSettings">
+                <i class="bi bi-gear fs-5"></i>
+            </button>
+
+            <button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <i class="bi bi-list fs-5"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <div class="navbar-nav d-flex flex-row justify-content-end">
+                    <button type="button" class="btn btn-outline-secondary me-1" id="refreshid">
+                        <i class="bi bi-arrow-clockwise fs-5"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary me-1" id="searchid" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <i class="bi bi-search fs-5"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <i class="bi bi-plus-lg fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-xxl">
+        <hr class="text-dark">
+    </div>
+
+    <ChildParentBinding @bind-FolderKey="folderKey" @bind-FolderKey:after="ShiftChanged" />
+
+    <div class="container-xxl">
+        <p>Parent <code>folderkey</code>: @folderKey</p>
+    </div>
+</div>
+@code {
+
+    private string folderKey = "1961";
+    private void ShiftChanged()
+    {
+        Console.WriteLine("called parent " + folderKey);
+    }
+}

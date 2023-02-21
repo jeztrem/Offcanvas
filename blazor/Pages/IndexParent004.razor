@@ -1,0 +1,20 @@
+﻿@page "/002"
+@using blazor.Components 
+
+
+<h1>Parent Component</h1>
+
+<p>Parent <code>folderKey</code>: @folderKey</p>
+
+<button @onclick="UpdateFolderKey">Update Parent <code>folderKey</code></button>
+
+<Child004 @bind-FolderKey="folderKey"  />
+
+@code {
+    private string folderKey = "1961";
+
+    private void UpdateFolderKey()
+    {
+        folderKey = "1961";
+    }
+}

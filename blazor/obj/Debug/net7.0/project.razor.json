@@ -1,0 +1,132 @@
+{
+  "SerializedFilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\blazor.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "7.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "blazor",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Child003.razor",
+      "TargetPath": "Components\\Child003.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Offcanvas004.razor",
+      "TargetPath": "Components\\Offcanvas004.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexParent004.razor",
+      "TargetPath": "Pages\\IndexParent004.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexParent002.razor",
+      "TargetPath": "Pages\\IndexParent002.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Offcanvas002.razor",
+      "TargetPath": "Components\\Offcanvas002.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Offcanvas005.razor",
+      "TargetPath": "Components\\Offcanvas005.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\ChildParentBinding.razor",
+      "TargetPath": "Components\\ChildParentBinding.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Child002.razor",
+      "TargetPath": "Components\\Child002.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexChildParentBinding.razor",
+      "TargetPath": "Pages\\IndexChildParentBinding.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Offcanvas003.razor",
+      "TargetPath": "Components\\Offcanvas003.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Child004.razor",
+      "TargetPath": "Components\\Child004.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexUserSettings.razor",
+      "TargetPath": "Pages\\IndexUserSettings.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\MainLayout.razor",
+      "TargetPath": "MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Offcanvas001.razor",
+      "TargetPath": "Components\\Offcanvas001.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexPasswordBinding.razor",
+      "TargetPath": "Pages\\IndexPasswordBinding.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexParent003.razor",
+      "TargetPath": "Pages\\IndexParent003.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\UserSettings.razor",
+      "TargetPath": "Components\\UserSettings.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\Child001.razor",
+      "TargetPath": "Components\\Child001.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexOffcanvas.razor",
+      "TargetPath": "Pages\\IndexOffcanvas.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Pages\\IndexParent001.razor",
+      "TargetPath": "Pages\\IndexParent001.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\jeztr\\LocalT\\Offcanvas\\blazor\\Components\\PasswordEntry.razor",
+      "TargetPath": "Components\\PasswordEntry.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

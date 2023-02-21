@@ -1,0 +1,69 @@
+﻿<div class="container">
+  <div class="modal fade " data-bs-keyboard="false" tabindex="-1" id="searchModal">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <span class="modal-title fw-normal fs-5 text-secondary">Date + Patient Count</span>
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal" data-bs-target="#searchModal">
+            <i class="bi bi-x-circle"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="list-group bg-dark">
+            @foreach (var _dayItem in dayItems)
+            {
+              <button type="button" class="btn btn-dark my-1" id=@_dayItem.FolderKey
+              @onclick="@(e=>Shift_Clicked(_dayItem.Day))" data-bs-dismiss="modal" data-bs-target="#searchModal">
+                <div class="row">
+                  <div class="col-9">
+                    <span class="text-secondary">@_dayItem.Day</span>
+                  </div>
+                  <div class="col-3">
+                    <span class="text-secondary">@_dayItem.Count</span>
+                  </div>
+                </div>
+              </button>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+  [Parameter]
+  public string? FolderKey { get; set; }
+  [Parameter]
+  public EventCallback<string> ShiftChanged { get; set; }
+  public class DayItem
+  {
+    public string Day { get; set; }
+    public string Count { get; set; }
+    public string FolderKey { get; set; }
+    public DayItem(string day, string count, string folderKey)
+    {
+      Day = day;
+      Count = count;
+      FolderKey = folderKey;
+    }
+  }
+  List<DayItem> dayItems = new();
+  protected override void OnInitialized()
+  {
+    dayItems.Clear();
+    dayItems.Add(new DayItem("Loading", "", ""));
+    for (int i = 0; i < 10; i++)
+    {
+      dayItems.Add(new DayItem("January " + i + "  2023", i.ToString(), (i * 10).ToString()));
+    }
+  }
+    [Parameter]
+    public EventCallback<string> FolderKeyChanged { get; set; }
+  private async Task Shift_Clicked(string folderKey)
+  {
+    FolderKey = folderKey;
+    await FolderKeyChanged.InvokeAsync(FolderKey);
+    Console.WriteLine("called shift clicked " + FolderKey);
+  }
+}

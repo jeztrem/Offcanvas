@@ -1,0 +1,108 @@
+﻿<div class="container">
+  <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="userSettings">
+
+    <div class="offcanvas-header">
+      <span class="text-secondary fs-4">Settings</span>
+      <button type="button" class="btn btn-outline-secondary mx-1" data-bs-dismiss="offcanvas">
+        <i class="bi bi-x fs-5"></i>
+      </button>
+    </div>
+
+    <div class="offcanvas-body mb-5">
+      <div class="container">
+
+        <hr class="text-dark">
+        <div class="row">
+          <div class="col-8">
+            <span class="text-secondary fs-6 ms-4">Light Theme</span>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch">
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-dark">
+
+        <div class="row mt-3">
+          <div class="col-8 ">
+            <div class="mt-2">
+              <span class="text-secondary fs-6 ms-4">Default Filter</span>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary">
+              <i class="bi bi-funnel fs-6"></i>
+            </button>
+          </div>
+        </div>
+
+        <hr class="text-dark">
+
+        <div class="row my-3">
+          <div class="col">
+            <span class="text-secondary fs-6 ms-4">Display Days</span>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="btn-group ps-5" role="group">
+            <div class="col-2">
+              <input type="radio" class="btn-check" name="defaultDay" autocomplete="off">
+              <label class="btn btn-primary rounded-0" style="width:100%;">33</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col">
+            <span class="text-secondary fs-6 ms-4">Search Days</span>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="btn-group ps-5" role="group">
+
+            <div class="col-2">
+              <input type="radio" class="btn-check " name="searchDay" autocomplete="off">
+              <label class="btn btn-outline-secondary rounded-0">44</label>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-dark">
+
+        <div class="row my-3">
+          <div class="col">
+            <span class="text-secondary fs-6 ms-4">Saving Frequency</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 ps-5 text-secondary text-start fs-6"><i>Least</i></div>
+          <div class="col-4 pe-1 text-secondary text-end fs-6"><i>Most</i></div>
+        </div>
+
+        <div class="row">
+
+          <div class="btn-group ps-5" role="group">
+            <div class="col-2">
+              <input type="radio" class="btn-check " name="saveFrequency" autocomplete="off">
+              <label class="btn btn-primary rounded-0" style="width:100%;">this</label>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-dark">
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+
+}
