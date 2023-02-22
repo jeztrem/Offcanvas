@@ -1,0 +1,14 @@
+IndexChildParentBinding  
+    binds data (private on this side, not a property.)
+    @bind-{Property}:after="method" nice way to call a method after child has completed its work.
+
+ChildParentBinding
+    has properties
+    has parameters as properties (exposes them to the parent)
+    needs to specify EventCallBack so when OnPropertyChanged is called, it can update the object.
+
+For this to bind DayItem, they would need to call the same class (don't define inside @code.)    
+
+Beware of rules for refreshing component.  
+    If you have a property that is not a parameter, it will not refresh the component.  
+    You need to call StateHasChanged().

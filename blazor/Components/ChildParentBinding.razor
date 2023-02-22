@@ -10,7 +10,7 @@
         </div>
         <div class="modal-body">
           <div class="list-group bg-dark">
-            @foreach (var _dayItem in dayItems)
+            @foreach (var _dayItem in DayItems)
             {
               <button type="button" class="btn btn-dark my-1" id=@_dayItem.FolderKey
               @onclick="@(e=>Shift_Clicked(_dayItem.Day))" data-bs-dismiss="modal" data-bs-target="#searchModal">
@@ -36,6 +36,8 @@
   public string? FolderKey { get; set; }
   [Parameter]
   public EventCallback<string> ShiftChanged { get; set; }
+  [Parameter]
+  public List<DayItem>? DayItems { get; set; }
   public class DayItem
   {
     public string Day { get; set; }
@@ -48,18 +50,18 @@
       FolderKey = folderKey;
     }
   }
-  List<DayItem> dayItems = new();
+  //List<DayItem> dayItems = new();
   protected override void OnInitialized()
   {
-    dayItems.Clear();
-    dayItems.Add(new DayItem("Loading", "", ""));
+    DayItems = new List<DayItem>();
+    DayItems.Add(new DayItem("Loading", "", ""));
     for (int i = 0; i < 10; i++)
     {
-      dayItems.Add(new DayItem("January " + i + "  2023", i.ToString(), (i * 10).ToString()));
+      DayItems.Add(new DayItem("January " + i + " 2023", i.ToString(), (i * 10).ToString()));
     }
   }
-    [Parameter]
-    public EventCallback<string> FolderKeyChanged { get; set; }
+  [Parameter]
+  public EventCallback<string> FolderKeyChanged { get; set; }
   private async Task Shift_Clicked(string folderKey)
   {
     FolderKey = folderKey;

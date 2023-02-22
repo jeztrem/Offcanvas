@@ -34,17 +34,32 @@
         <hr class="text-dark">
     </div>
 
-    <ChildParentBinding @bind-FolderKey="folderKey" @bind-FolderKey:after="ShiftChanged" />
+    <ChildParentBinding @bind-FolderKey="folderKey"  @bind-FolderKey:after="ShiftChanged" />
 
     <div class="container-xxl">
         <p>Parent <code>folderkey</code>: @folderKey</p>
     </div>
 </div>
 @code {
-
+  public class DayItem
+  {
+    public string Day { get; set; }
+    public string Count { get; set; }
+    public string FolderKey { get; set; }
+    public DayItem(string day, string count, string folderKey)
+    {
+      Day = day;
+      Count = count;
+      FolderKey = folderKey;
+    }
+  }
+    private List<DayItem> dayitems = new();
     private string folderKey = "1961";
     private void ShiftChanged()
     {
-        Console.WriteLine("called parent " + folderKey);
+        foreach (var item in dayitems)
+        {
+        Console.WriteLine("called parent " + item.FolderKey);
+        }
     }
 }
